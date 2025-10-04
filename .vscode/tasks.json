@@ -1,0 +1,38 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+        {
+            "label": "makefile build",
+            "type": "shell",
+            "command": "powershell",
+            "args": [
+                "-Command",
+                "make"
+            ],
+            "problemMatcher": [],
+            "detail": "使用 g++ 编译当前文件并输出到指定目录"
+        },
+        {
+            "label": "makefile run",
+            "type": "shell",
+            "command": "powershell",
+            "args": [
+                "-Command",
+                "./main.exe"
+            ],
+            "problemMatcher": [],
+            "detail": "使用 g++ 编译当前文件并输出到指定目录"
+        },
+        {
+            "label": "makefile clean",
+            "type": "shell",
+            "command": "powershell",
+            "args": [
+                "-Command",
+                "make clean"
+            ],
+            "problemMatcher": [],
+            "detail": "使用 g++ 编译当前文件并输出到指定目录"
+        }
+    ]
+}

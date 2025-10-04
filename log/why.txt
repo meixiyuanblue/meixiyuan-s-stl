@@ -1,0 +1,24 @@
+\033[...m
+0	重置所有属性
+1	高亮/加粗
+2	暗淡
+4	下划线
+5	闪烁
+7	反转
+8	隐藏
+
+30	黑色 val
+31	红色 error
+32	绿色 ok
+33	黄色 warning
+34	蓝色 note
+35	品红 fatal
+36	青色 important
+
+30 hallo
+31 it hava NULL
+32 task1 ok
+33 you can use list(1) <- list
+34 would 89%
+35 con't /0
+36 sever start on 65536
