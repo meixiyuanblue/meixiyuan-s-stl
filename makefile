@@ -2,15 +2,16 @@ CXX = g++
 CXXFLAGS = -O2
 CPP = main.cpp
 OBJ  = $(addprefix o/,$(notdir $(CPP:.cpp=.o)))
+HPP = log/logV1.2.hpp
 EXE = main.exe
 
 all : $(EXE)
 
-$(EXE) : $(OBJ)
-	$(CXX) $^ -o $@
+$(EXE) : $(OBJ) $(HPP)
+	$(CXX) $(OBJ) -o $(EXE)
 	
-o/main.o : main.cpp
-	$(CXX) -c $^ -o $@
+o/main.o : main.cpp $(HPP)
+	$(CXX) -c main.cpp -o $@
 
 
 $(OBJ): | o
