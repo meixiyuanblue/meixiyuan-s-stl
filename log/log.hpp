@@ -4,7 +4,7 @@
 #include <iostream>
 #include <string>
 
-#define mxylog "v1.1 on 25.10.4"
+#define mxylog "v1.1 on 25.10.4 on log"
 
 
 using namespace std;
