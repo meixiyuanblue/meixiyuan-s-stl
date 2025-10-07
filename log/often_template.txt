@@ -1,6 +1,6 @@
 5
-lay_note [\033[1m%p\033[0m]:\033[1;34mnote\033[0m:%v\n
-lay_warning [\033[1m%p\033[0m]:\033[1;33mwarning\033[0m:%v\n
-lay_error [\033[1m%p\033[0m]:\033[1;31merror\033[0m:%v\n
-lay_fatal [\033[1m%p\033[0m]:\033[1;35mfatal\033[0m:%v\n
-lay_important [\033[1m%p\033[0m]:\033[1;36mimportant\033[0m: v\n
+lay_note [\033[1m`p\033[0m]:\033[1;34mnote\033[0m:`v\n
+lay_warning [\033[1m`p\033[0m]:\033[1;33mwarning\033[0m:`v\n
+lay_error [\033[1m`p\033[0m]:\033[1;31merror\033[0m:`v\n
+lay_fatal [\033[1m`p\033[0m]:\033[1;35mfatal\033[0m:`v\n
+lay_important [\033[1m`p\033[0m]:\033[1;36mimportant\033[0m:`v\n
