@@ -40,6 +40,7 @@ int main()
 以下为函数表 详见文件内部
 void bulid(string _name); [内部函数] 解析格式字符串
 
+log(); 构造函数
 void often_template(); 提供自带的log类型(error warning note fatal important)
 void def_template(string _name, string _layout = NOLAYOUT); 创建log类型(名称, 格式字符串)
 
